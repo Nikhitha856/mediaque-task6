@@ -1,0 +1,15 @@
+.box{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid black;
+}
+@media screen and (width < 600px){
+    .box{
+        box-shadow:none
+    }
+}
+@media screen and (width > 600px){
+    .box{
+        box-shadow:5px 5px blueviolet;
+    }
+}
